@@ -50,7 +50,7 @@ function updateDB(event) {
  */
 // called one time for each entry in database on page load
 // & for each entry added
-database.on("child_added", addMessage)
+database.on("child_added", addMessage);
 
 /**
  * @TODO create a function called addMessage that
